@@ -29,22 +29,94 @@ p { margin:1px; }
 #numbers{height:19px; width:112px; overflow:hidden; position:absolute; left:483px; top:390px; text-align:right; font-size:1px;}	
 #numbers img{margin-left:5px;}
 </style>
+<script language="javascript">
+<!--
+	var pix = new Array("img/banner01.jpg","img/banner02.jpg","img/banner03.jpg","img/banner04.jpg");
+	var urls = new Array("#","#","#","#");
+	var alts = new Array("Goddess of Destruction Preview Site","Download High Five Today","Updater - Upgrade Now","Screenshot Gallery Container");
+	var numbers = new Array("img/b_slide_01_off.jpg", "img/b_slide_02_off.jpg", "img/b_slide_03_off.jpg", "img/b_slide_04_off.jpg");
+	var numbersOn = new Array("img/b_slide_01_on.jpg", "img/b_slide_02_on.jpg", "img/b_slide_03_on.jpg", "img/b_slide_04_on.jpg");
+	/* Image Preloading */
+	var a = new Image(); a.src = 'img/banner01.jpg';	var b = new Image(); b.src = 'img/banner02.jpg';		var c = new Image(); c.src = 'img/banner03.jpg';		var d = new Image(); d.src = 'img/banner04.jpg';
+	//end image preloading
+	var intVal = 0;
+	var currSlide = 0;
+	
+	function slideshow(toggle,slideNum){
+		
+		i = slideNum;
+		currSlide = slideNum;
+  		
+		if ( toggle == 1 ) {			
+			//Start Slideshow
+			change(i);
+			intVal = setInterval("i++; if (i > (pix.length - 1)) {i = 0}; change(i);", 1500);
+		} else {
+			//Slideshow Stopped		
+    		clearInterval ( intVal );
+			change(i);
+		}
+	}
+	function change(count){
+		
+		currSlide = count;
+		
+		if (pix.length != 1){ // Determine if there is only one element and therefore no need to rotate 
+			document.images.pic.src = pix[count]; // Set the main image source
+			document.images.pic.alt = alts[count]; // Set the image alt tag to the title of the post for hover text
+			document.getElementById("eventLink").href = urls[count]; // Set the link around the main image
+			// Check the length of the array and set all of the unselected number source back to default or off
+			for (var d = 0; d < pix.length; d++){ 
+				document.getElementById("num"+d).src = numbers[d];
+			}
+			document.getElementById("num"+count).src = numbersOn[count]; // turn the active number on
+		}
+	}
+	// Prevent the right click menu
+	document.oncontextmenu = function(){return false}
+	if(document.layers) {
+		window.captureEvents(Event.MOUSEDOWN);
+		window.onmousedown = function(e){
+			if(e.target==document)return false;
+		}
+	}
+	else {
+		document.onmousedown = function(){return false;}
+	}
+	function startSlideshow() {
+		slideshow(1,0);
+	}
+//-->
+</script>
 </head>
 <body style="margin:0" scroll="no" onLoad="startSlideshow();">
-<div style="background:url('img/back.jpg') no-repeat; width:755px; height:450px;">
+<div style="background:url('img/background.jpg') no-repeat; width:755px; height:450px;">
 	<!--Ссылки в шапке-->
 	<div class="tm">
-		<div class="tm_left">
-			<a target="l2web" href="https://dkon.app/L2GFx1?referrer=7609">Gracia Final News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a target="l2web" href="https://dkon.app/La2WildMP?referrer=7609">Help Community</a>
-			<!--a target="l2web" href="https://dkon.app/L2GFx1/post/418555">Gracia Final x1</a>
-			<a target="l2web" href="https://dkon.app/La2WildMP/post/420653">Gracia Final x100k</a-->&nbsp;&nbsp;
-		</div>
-		<div class="tm_right" style="text-align: left;">
-			<a target="l2web" href="https://dkon.app/search/hashtag/?src=screens&referrer=7609">#Screens</a>
+        <div class="tm_left">
+		          <a target="l2web" href="https://dkon.app/La2WildMP?referrer=7609">Gracia Final News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a target="l2web" href="https://dkon.app/La2WildMP?referrer=7609">Help Community</a>
+        </div>
+        <div class="tm_right" style="text-align: left;">
+            <a target="l2web" href="https://dkon.app/search/hashtag/?src=screens&referrer=7609">#Screens</a>
+        </div>
+    </div>
+	
+	<div class="bbs">
+		<!--Hobosti ST-->
+		<div class="news">
+			<div style="padding:18px 0 0 0; line-height:14px;"><br>
+			<a href="https://dkon.app/La2WildMP/post/420653?referrer=7609">Gracia Final PvP server</a><br>
+					<a href="https://dkon.app/L2GFx1/post/418555?referrer=7609" target="_blank">Gracia Final Low-Rate server</a><br>
+
+		
+			<a href="https://dkon.app/L2GFx1/post/419645?referrer=7609" target="_blank">Gracia Event Item</a><br>
+			<a href="https://dkon.app/DGnor/post/420350?referrer=7609" target="_blank">MDT Guide</a>
+			<br><hr><br>
+			<h3 style="color:white">Thank you for choosing our project! </h3>
+			</div>
 		</div>
 	</div>
-	
 	
 </div>
 </body>
