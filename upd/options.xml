@@ -1,0 +1,16 @@
+
+<options>
+	<title>Lineage II Gracia Final</title>
+	<uid>{10274A14-30245390-E58A02C5-727752B6-463F6195}</uid>
+	<options>http://proxyupdgfsrv.fastmsg.ru/upd/options.xml</options>
+	<news>http://proxyupdgfsrv.fastmsg.ru/upd/index.html</news>
+	<patchlist>http://proxyupdgfsrv.fastmsg.ru/upd/gf/patchlist.xml</patchlist>
+	<updater>http://proxyupdgfsrv.fastmsg.ru/upd/gf/Lineage2.exe</updater>
+	<full_check>
+		<reload_patchlist/>
+	</full_check>
+	<run>
+		<program>La2.exe</program>
+		<close_updater/>
+	</run>
+</options>
