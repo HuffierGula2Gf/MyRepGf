@@ -1980,7 +1980,7 @@
 	<archive filename="System\itemname-ru.dat" checksum="5187F539" original="7AD7AD83" size="434096"/>
 	<archive filename="System\ItemPrime.dat" checksum="34208958" original="96C2D731" size="24368"/>
 	<archive filename="System\l2.exe" checksum="B5919A82" original="E45CAEDF" size="427980"/>
-	<archive filename="system\l2.ini" checksum="DC41301A" original="0F5FC856" size="3632"/>
+	<archive filename="System\l2.ini" checksum="DC41301A" original="0F5FC856" size="3632"/>
 	<archive filename="System\l2.int" checksum="AA223F4A" original="CADE6C41" size="163"/>
 	<archive filename="System\l2.log" checksum="9F1AC89A" original="45D29839" size="432"/>
 	<archive filename="System\l2_skilltime.utx" checksum="96C851E6" original="651C5CD3" size="593593"/>
@@ -2054,8 +2054,8 @@
 	<archive filename="System\RideData.dat" checksum="F47D6D90" original="1152E6F3" size="688"/>
 	<archive filename="System\s_info.ini" checksum="E805F873" original="27FBF15B" size="71"/>
 	<archive filename="System\ScenePlayerData.dat" checksum="F37D3B15" original="1549CF57" size="304"/>
-	<archive filename="system\ServerName-e.dat" checksum="F87ABC06" original="564208C5" size="1072"/>
-	<archive filename="system\servername-ru.dat" checksum="F87ABC06" original="564208C5" size="1072"/>
+	<archive filename="System\ServerName-e.dat" checksum="F87ABC06" original="564208C5" size="1072"/>
+	<archive filename="System\servername-ru.dat" checksum="F87ABC06" original="564208C5" size="1072"/>
 	<archive filename="System\ShortcutAlias.dat" checksum="506EA3EB" original="ECB12A50" size="2096"/>
 	<archive filename="System\skillgrp.dat" checksum="52E57CE7" original="E4ED57EE" size="265008"/>
 	<archive filename="System\SkillName-e.dat" checksum="DCD1E274" original="8EE65530" size="599472"/>
@@ -2680,3 +2680,4 @@
 	<archive filename="Voice\tutorial_voice_029-e.ogg" checksum="0CCCC76E" original="2CF675EB" size="223241"/>
 	<archive filename="Voice\tutorial_voice_030-e.ogg" checksum="F315BD06" original="9B02AE88" size="210775"/>
 </list>
+
