@@ -1069,7 +1069,7 @@
 	<archive filename="L2text\weapon\Sword2Handed.htm" checksum="C115D253" original="4DFD64F5" size="50592"/>
 	<archive filename="L2text\weapon\weapon.htm" checksum="FFAE650C" original="C609F89B" size="2296"/>
 	<archive filename="l2WildClientCheck.cmd" checksum="8F516B9D" original="9C91ED49" size="1682"/>
-	<archive filename="La2.exe" checksum="7EE872BC" original="C4871F93" size="362496"/>
+	<archive filename="La2.exe" checksum="951509CB" original="DA25F5B8" size="525312"/>
 	<archive filename="Lineage 2 Gracia Final.url" checksum="A7DAD4AD" original="140839E5" size="116"/>
 	<archive filename="Maps\11_23.unr" checksum="E148F7EA" original="CDC5CE5D" size="1799993"/>
 	<archive filename="Maps\11_24.unr" checksum="0101F197" original="18AF72B7" size="1800825"/>
@@ -2680,4 +2680,5 @@
 	<archive filename="Voice\tutorial_voice_029-e.ogg" checksum="0CCCC76E" original="2CF675EB" size="223241"/>
 	<archive filename="Voice\tutorial_voice_030-e.ogg" checksum="F315BD06" original="9B02AE88" size="210775"/>
 </list>
+
 
