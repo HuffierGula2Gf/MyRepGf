@@ -4,7 +4,7 @@
 	<uid>{446B7F29-646866AD-B1C637F8-263B678B-127354A8}</uid>
 	<options>http://l2gf-updater-gamecenter.dkon.app/upd/options.xml</options>
 	<news>http://l2gf-updater-gamecenter.dkon.app/upd/index.html</news>
-	<patchlist>http:/l2gf-updater-gamecenter.dkon.app/upd/gf/patchlist.xml</patchlist>
+	<patchlist>http://l2gf-updater-gamecenter.dkon.app/upd/gf/patchlist.xml</patchlist>
 	<updater>http://l2gf-updater-gamecenter.dkon.app/upd/gf/Lineage2.exe</updater>
 	<full_check>
 		<reload_patchlist/>
