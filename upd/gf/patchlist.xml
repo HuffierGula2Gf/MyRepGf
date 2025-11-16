@@ -1,5 +1,6 @@
 
 <list>
+	<archive filename="DK.exe" checksum="06D96DFA" original="ABE2BF8F" size="255488"/>
 	<archive filename="Animations\BG_EffectMeshes.ukx" checksum="697EC15C" original="564E9228" size="59670"/>
 	<archive filename="Animations\Branch.ukx" checksum="0CEF812B" original="C75D405B" size="55403724"/>
 	<archive filename="Animations\DarkElf.ukx" checksum="B5EF9F6E" original="EC2DC59D" size="22190066"/>
@@ -2680,5 +2681,6 @@
 	<archive filename="Voice\tutorial_voice_029-e.ogg" checksum="0CCCC76E" original="2CF675EB" size="223241"/>
 	<archive filename="Voice\tutorial_voice_030-e.ogg" checksum="F315BD06" original="9B02AE88" size="210775"/>
 </list>
+
 
 
