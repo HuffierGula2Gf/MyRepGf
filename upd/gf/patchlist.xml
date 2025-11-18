@@ -1,5 +1,6 @@
 
 <list>
+	<archive filename="l2WildClientCheck.cmd" checksum="1791C87E" original="03352FDD" size="1693"/>
 	<archive filename="Lineage 2 Forum.url" checksum="A6C2A21A" original="3B3188B4" size="126"/>
 	<archive filename="Lineage 2 Gracia Final.url" checksum="082B2049" original="31DBEA51" size="123"/>
 	<archive filename="Lineage 2 Interlude PvP-Server.url" checksum="50B42AC7" original="28954450" size="250"/>
@@ -2688,6 +2689,7 @@
 	<archive filename="Voice\tutorial_voice_029-e.ogg" checksum="0CCCC76E" original="2CF675EB" size="223241"/>
 	<archive filename="Voice\tutorial_voice_030-e.ogg" checksum="F315BD06" original="9B02AE88" size="210775"/>
 </list>
+
 
 
 
