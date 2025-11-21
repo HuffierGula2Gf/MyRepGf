@@ -2063,7 +2063,7 @@
 	<archive filename="System\RideData.dat" checksum="F47D6D90" original="1152E6F3" size="688"/>
 	<archive filename="System\s_info.ini" checksum="E805F873" original="27FBF15B" size="71"/>
 	<archive filename="System\ScenePlayerData.dat" checksum="F37D3B15" original="1549CF57" size="304"/>
-	<archive filename="system\ServerName-e.dat" checksum="A1960800" original="D6C48CE3" size="1072"/>
+	<archive filename="System\ServerName-e.dat" checksum="A1960800" original="D6C48CE3" size="1072"/>
 	<archive filename="System\servername-ru.dat" checksum="A1960800" original="D6C48CE3" size="1072"/>
 	<archive filename="System\ShortcutAlias.dat" checksum="506EA3EB" original="ECB12A50" size="2096"/>
 	<archive filename="System\skillgrp.dat" checksum="52E57CE7" original="E4ED57EE" size="265008"/>
@@ -2689,6 +2689,7 @@
 	<archive filename="Voice\tutorial_voice_029-e.ogg" checksum="0CCCC76E" original="2CF675EB" size="223241"/>
 	<archive filename="Voice\tutorial_voice_030-e.ogg" checksum="F315BD06" original="9B02AE88" size="210775"/>
 </list>
+
 
 
 
