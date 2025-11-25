@@ -1990,7 +1990,7 @@
 	<archive filename="System\ItemPrime.dat" checksum="34208958" original="96C2D731" size="24368"/>
 	<archive filename="System\l2.exe" checksum="B5919A82" original="E45CAEDF" size="427980"/>
 	<archive filename="System\l2.ini" checksum="DC41301A" original="0F5FC856" size="3632"/>
-	<archive filename="System\l2.int" checksum="AA223F4A" original="CADE6C41" size="163"/>
+	<archive filename="System\l2.int" checksum="94F3C212" original="977A4956" size="168"/>
 	<archive filename="System\l2.log" checksum="9F1AC89A" original="45D29839" size="432"/>
 	<archive filename="System\l2_skilltime.utx" checksum="96C851E6" original="651C5CD3" size="593593"/>
 	<archive filename="System\L2CompiledShader.bin" checksum="ED8B6E98" original="B2F8A8B7" size="519758"/>
@@ -2101,7 +2101,7 @@
 	<archive filename="System\Weapongrp.dat" checksum="BAC904B1" original="4BFE85D8" size="201904"/>
 	<archive filename="System\wform.bm" checksum="2BAF65BB" original="FEB585DE" size="527005"/>
 	<archive filename="System\window.dll" checksum="8FD16B84" original="56C941A1" size="501780"/>
-	<archive filename="System\window.int" checksum="7509CE3E" original="5D14C88C" size="2431"/>
+	<archive filename="System\window.int" checksum="3762040C" original="243170B7" size="2411"/>
 	<archive filename="System\WindowsInfo.ini" checksum="A0D56127" original="25AB907B" size="2910"/>
 	<archive filename="System\windrv.dll" checksum="C2F773E0" original="A8CB2E42" size="214036"/>
 	<archive filename="System\windrv.int" checksum="CDA2CB33" original="087A3AC7" size="729"/>
@@ -2689,6 +2689,7 @@
 	<archive filename="Voice\tutorial_voice_029-e.ogg" checksum="0CCCC76E" original="2CF675EB" size="223241"/>
 	<archive filename="Voice\tutorial_voice_030-e.ogg" checksum="F315BD06" original="9B02AE88" size="210775"/>
 </list>
+
 
 
 
