@@ -10,7 +10,7 @@
 		<reload_patchlist/>
 	</full_check>
 	<run>
-		<program>La2.exe</program>
+		<program>System\l2.exe</program>
 		<close_updater/>
 	</run>
 </options>
