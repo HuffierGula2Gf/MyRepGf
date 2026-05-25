@@ -2,16 +2,6 @@
 <list>
 	<archive filename="DKEngine.dkon" checksum="951509CB" original="DA25F5B8" size="525312"/>
 	<archive filename="l2WildClientCheck.cmd" checksum="1791C87E" original="03352FDD" size="1693"/>
-	<archive filename="Lineage 2 Forum.url" checksum="A6C2A21A" original="3B3188B4" size="126"/>
-	<archive filename="Lineage 2 Gracia Final.url" checksum="082B2049" original="31DBEA51" size="123"/>
-	<archive filename="Lineage 2 Interlude PvP-Server.url" checksum="50B42AC7" original="28954450" size="250"/>
-	<archive filename="Lineage 2 Interlude x20.url" checksum="8C938878" original="8744B82B" size="243"/>
-	<archive filename="Lineage 2 Interlude x3.url" checksum="502B58A9" original="40C58438" size="122"/>
-	<archive filename="Lineage 2 Interlude.url" checksum="58B56AFF" original="4A4E0744" size="126"/>
-	<archive filename="Lineage 2 Screen's.url" checksum="96F3210A" original="CD9D5C3D" size="157"/>
-	<archive filename="Project Info.url" checksum="05114C68" original="54CA8C0A" size="138"/>
-	<archive filename="Support ((PM ADMIN)).url" checksum="56D5C5A2" original="AFD95064" size="123"/>
-	<archive filename="DK.exe" checksum="06D96DFA" original="ABE2BF8F" size="255488"/>
 	<archive filename="Animations\BG_EffectMeshes.ukx" checksum="697EC15C" original="564E9228" size="59670"/>
 	<archive filename="Animations\Branch.ukx" checksum="0CEF812B" original="C75D405B" size="55403724"/>
 	<archive filename="Animations\DarkElf.ukx" checksum="B5EF9F6E" original="EC2DC59D" size="22190066"/>
@@ -1990,7 +1980,7 @@
 	<archive filename="System\itemname-ru.dat" checksum="5187F539" original="7AD7AD83" size="434096"/>
 	<archive filename="System\ItemPrime.dat" checksum="34208958" original="96C2D731" size="24368"/>
 	<archive filename="System\l2.exe" checksum="B5919A82" original="E45CAEDF" size="427980"/>
-	<archive filename="System\l2.ini" checksum="DC41301A" original="0F5FC856" size="3632"/>
+	<archive filename="System\l2.ini" checksum="342706AB" original="D614DB86" size="3632"/>
 	<archive filename="System\l2.int" checksum="94F3C212" original="977A4956" size="168"/>
 	<archive filename="System\l2.log" checksum="9F1AC89A" original="45D29839" size="432"/>
 	<archive filename="System\l2_skilltime.utx" checksum="96C851E6" original="651C5CD3" size="593593"/>
